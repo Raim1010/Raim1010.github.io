@@ -1,40 +1,41 @@
-h1 {
-    position: relative;
-    color: red !important;
-    
-    }
-    
-    h1::after {
-    content: 'ПОСЛЕ';
-    }
-    
-    h1::before {content: 'ДО';}
-    
-    h1::first-letter {
-    color: blue;
-    }
-    
-    p::first-line {
-    color: red;
-    }
-    
-    #title {
-    font-size: 50px;
-    }
-    
-    .page-title {
-    font-size: 20px;
-    }
-    
-    .page-title,
-    #title {
-    border: 1px solid green;
-    }
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
 
-    .btn{
-        background-color: transparent;
-    }
 
-    .btn--red{
-        background-color: #bc2324;
-    }
+.container {
+    margin: 0px 293px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-line {
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background-color: #dedede;
+}
+
+.nav-item {
+    color: #1f1e1e;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+
+    margin-right: 25px;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1f1e1e;
+    border: 1px solid black;
+    padding: 15px 40px;
+}
