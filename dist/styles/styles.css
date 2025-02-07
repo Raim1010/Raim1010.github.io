@@ -1650,15 +1650,15 @@ button.swiper-pagination-bullet {
   font-weight: 300;
 }
 .doit {
+  position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "mak", serif;
-  position: relative;
   width: 100%;
   text-align: right;
   white-space: nowrap;
   pointer-events: none;
   overflow: hidden;
+  font-family: "mak", serif;
   font-size: 6vw;
   line-height: 1.2;
   font-weight: 700;
@@ -2201,6 +2201,7 @@ button.swiper-pagination-bullet {
   font-size: 16px;
   line-height: 1.3;
   text-decoration: none;
+  color: black;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
@@ -4060,9 +4061,7 @@ button.swiper-pagination-bullet {
   }
   .page-footer__copyright {
     font-size: 14px;
-  }
-  .page-footer__create {
-    font-size: 14px;
+    margin-bottom: 14px;
   }
   .reserve {
     gap: 60px;
@@ -4247,7 +4246,7 @@ button.swiper-pagination-bullet {
     margin-left: 5px;
   }
   .subscribe-form {
-    max-width: 390px;
+    max-width: 100%;
   }
   .subscribe-form__wrapper {
     margin: 0 -20px 15px;
@@ -4279,10 +4278,14 @@ button.swiper-pagination-bullet {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 20px;
+    margin-bottom: 16px;
   }
   .page-footer__copyright {
     margin-left: auto;
     margin-bottom: 5px;
+  }
+  .page-footer__create {
+    margin-left: auto;
   }
   .pp {
     padding: 80px 20px 40px;
